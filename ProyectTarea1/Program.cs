@@ -2,11 +2,15 @@
 
 namespace ProyectTarea1
 {
-    class MainClass
+    class MainProgram
     {
-        public static void Main(string[] args)
+        static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
         }
+      
+            
+
+        
     }
 }
