@@ -6,8 +6,12 @@ namespace ProyectTarea1
     {
         static void Main(string[] args)
         {
+            Person1 Individuo = new Person1("Bob","Kunga");
+            Console.WriteLine(Individuo.Lanzar());
+          
 
         }
+
       
             
 
