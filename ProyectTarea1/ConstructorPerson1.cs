@@ -5,12 +5,13 @@ namespace ProyectTarea1
     {
         private string Nombre;
         private string Apellido;
+        
 
         public Person1(string nombre, string apellido)
         {
             Nombre = nombre;
             Apellido = apellido;
-
+            
         }
 
         public int Lanzar()
@@ -19,7 +20,14 @@ namespace ProyectTarea1
             int CaChiPun = Numero.Next(0, 3);
             return CaChiPun;
         }
-      
+        public string SetCompleteName()
+        {
+            string CoNa = Nombre + " " + Apellido;
+            return CoNa;
+        }
+
+
+
        
     }
 }
